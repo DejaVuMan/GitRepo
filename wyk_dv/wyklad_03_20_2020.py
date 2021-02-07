@@ -53,3 +53,20 @@ print(letters)
 dictionary={'back':4098,'jack':4138,'do':'it'}
 dictionary["again"]= "wheels keep turnin"
 print(dictionary)
+
+
+###### difference between adding to list yourself
+###### and using extend
+
+listEx=[2,3,3]
+listEx2=[3,4]
+print(listEx+listEx2)
+print(listEx)
+print(listEx2)
+#Basically, the addition disappears after
+#it occurs.
+#but, if we did
+print(listEx.extend(listEx2))
+print(listEx)
+#We can see we PERMANENTLY modified the List!
+
